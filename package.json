@@ -1,13 +1,13 @@
 {
   "name": "@gazzar97/react-widgets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Made with create-react-library",
   "author": "gazzar97",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "repository": "gazzar97/react-widgets",
+  "repository": "https://github.com/gazzar97/react-widgets.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
